@@ -2,26 +2,27 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" charset="utf-8" content="text/html; charset=windows-1252"/>
-        <link rel="stylesheet" href="common/css/bootstrap.min.css">
-        <link rel="stylesheet" href="common/css/style.css">
+        <link rel="stylesheet" type="text/css" href="common/user-css/style.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="common/js/jquery.min.js"></script>
         <script src="common/js/angular.min.js"></script>
         <script src="common/js/angular-ui-router.min.js"></script>
-        <script src="common/js/ui-bootstrap.min.js"></script>
-        <script src="common/js/app.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="common/js/app.js"></script> 	
+        <script src="user-registration/user-registration-controller.js"></script> 
     </head>
     <body>
-        <div class="myApp" id="top"> 
+        <div ng-app="userApp"> 
             <div class="container">
                 <nav class="navbar navbar-default">
                     <header class="col-md-12">
-                    
+                    	User Registration
                     </header>
                 <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT --> 
-                    <div class="mainDiv" ui-view novalidate></div>
+                    <div ui-view></div>
                 <!-- CONTENT ENDED --> 
-                    <footer class="col-md-12 footer">
-                        
+                    <footer class="col-md-12">
+                        Copyrights 2016.
                     </footer>
                 </nav>
             </div>
