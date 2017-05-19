@@ -1,3 +1,11 @@
 userApp.controller('user-registration-controller', function($scope) {
-	$scope.contactUS = {};
+	$scope.contactUs = {};
+	
+	$scope.send = function(){
+		$scope.contactUs;
+	}
+	
+	$scope.cancel = function(){
+		$scope.contactUs = {};
+	}
 })

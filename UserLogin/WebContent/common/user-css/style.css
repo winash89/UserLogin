@@ -1,9 +1,14 @@
 header, footer {
-    padding: 1em;
+    padding: 30px;
     color: white;
     background-color: black;
     clear: left;
-    text-align: center;
+    text-align: left;
+    font-family: inherit;
+    font-weight: 200;
+    line-height: 1.1;
+    color: white;
+    font-size: 25px;
 }
 
 .padValues{
