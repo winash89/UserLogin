@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>UserLogin</title>
-</head>
-<body>
-	<h1>Welcome to new User Login website. You will have lot of fun here.</h1>
-</body>
+    <head>
+        <meta http-equiv="Content-Type" charset="utf-8" content="text/html; charset=windows-1252"/>
+        <link rel="stylesheet" href="common/css/bootstrap.min.css">
+        <link rel="stylesheet" href="common/css/style.css">
+        <script src="common/js/jquery.min.js"></script>
+        <script src="common/js/angular.min.js"></script>
+        <script src="common/js/angular-ui-router.min.js"></script>
+        <script src="common/js/ui-bootstrap.min.js"></script>
+        <script src="common/js/app.js"></script> 
+    </head>
+    <body>
+        <div class="myApp" id="top"> 
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <header class="col-md-12">
+                    
+                    </header>
+                <!-- THIS IS WHERE WE WILL INJECT OUR CONTENT --> 
+                    <div class="mainDiv" ui-view novalidate></div>
+                <!-- CONTENT ENDED --> 
+                    <footer class="col-md-12 footer">
+                        
+                    </footer>
+                </nav>
+            </div>
+        </div>
+    </body>
 </html>
